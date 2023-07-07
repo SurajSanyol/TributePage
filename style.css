@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.container {
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: #000000;
+}
+
+.name-section {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  margin-top: 1.4rem;
+}
+.name-section h2 {
+  color: #ffffff;
+}
+
+.name-section p {
+  font-size: large;
+  margin-top: 0.3rem;
+  color: #ffffff;
+}
+
+.name-section img {
+  cursor: pointer;
+  margin-top: 2rem;
+}
+
+.quotes-image {
+  width: full;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.quotes-image img {
+  height: 20%;
+  width: 60%;
+  border-radius: 3px;
+  margin-top: 2rem;
+}
+
+.biography {
+  width: full;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.biography h3 {
+  margin-top: 2rem;
+  color: #ffffff;
+  /* max-width: 350px; */
+  /* margin-right: 33%; */
+  max-width: 40%;
+  display: flex;
+
+}
+
+.biography p {
+  color: #ffffff;
+  max-width: 40%;
+  margin-top: 2rem;
+}
+.line {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2rem;
+  height: 3px;
+  background-color: #ffffff;
+  width: 60%;
+}
+
+.footer-section {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  /* row-gap: 10px; */
+}
+
+.footer-section p {
+  color: #ffffff;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+img .apple-logo {
+  vertical-align: baseline;
+}
+
+.footer-section p span{
+  color: #0000FF;
+  text-decoration: underline;
+  cursor: pointer;
+}
